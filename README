@@ -1,0 +1,9 @@
+A python class that uses the afinfo command line utility. The class stores attributes of an audio file: the duration, file type, number of samples, and resolution.
+
+example call:
+
+>> import afinfo
+>> a = afinfo.Afinfo(afinfodir, audiopath)
+
+a is an instance of the Afinfo class. 'afinfodir' is a temporary location for the output of the afinfo command line utility. 'audiopath' is the path to your audio file. 
+
